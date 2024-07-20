@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Parallel Testing">
+  <test thread-count="2" parallel="methods" name="Test parallel">
+    <classes>
+      <class name="test.Automation_22may.assert_annotation"/>
+      <class name="test.Automation_22may.ohrmtest"/>
+      <class name="test.Automation_22may.firsttestngscript"/>
+      <class name="test.Automation_22may.Annotation"/>
+      <class name="test.Automation_22may.Paralleldemo"/>
+      <class name="test.Automation_22may.AppTest"/>
+      <class name=".dataproviderdemo"/>
+      <class name=".NewTest"/>
+      <class name="test.Automation_22may.readingfile"/>
+      <class name="test.Automation_22may.priorityintestng"/>
+    </classes>
+  </test> <!-- Test parallel -->
+</suite> <!-- Parallel Testing -->
